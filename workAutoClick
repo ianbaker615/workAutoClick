@@ -19,7 +19,7 @@ loginClick.click()
 #wait for page to load before seacrhing for button
 browser.implicitly_wait(5)
 
-#begin monitoring - fails here b/c button finding?
+#begin monitoring
 button = browser.find_element_by_class_name('react_meshim_dashboard_components_navBar_OldServeButton')
 
 while True:
